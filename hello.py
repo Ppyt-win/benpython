@@ -25,10 +25,11 @@
 
 
 
-Amount = int(input('Enter Amount:'))
+Amount = float(input('Enter Amount:'))
 original_price =700
 Amount_to_pay =800
 discount =Amount*20/100
+
 Tax = discount*8/100
 if Amount < 100:
     print('Hello,customer! You have no discount')
