@@ -1,0 +1,47 @@
+# print (4*8)
+# print (4/5)
+# print (4*10)
+# print (123*480)
+# print (5*8)
+# print (67*4)
+# marks = 80
+# result = ""
+# if marks < 30:
+#     result = "failed"
+# elif marks > 75:
+#     result = "passed with distinction"
+# else:
+#     result = "passed"
+# print(result)
+# def checkvowe1(n):
+#     match n:
+#         case 'a': return "Vowel alphabet"
+#         case 'e': return "Vowel alphabet"
+#         case 'i': return "Vowel alphabet"
+#         case 'o': return "Vowel alphabet"
+#         case 'u': return "Vowel alphabet"
+#         case _: return "Simple alphabet"
+#     print (checkVowel('a'))
+#     print (checkVowel('m'))
+#     print (checkVowel('o'))
+# words = ["one" , "two" , "three"]
+# for x in words:
+#     print(x)
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+# x = 0
+
+# while x < 10:
+#     print("x:" , x)
+#     if x == 5:
+#         print("Break...")
+#         break
+#     x += 1
+# print("End")
+# for letter in "python":
+#     # continue when letter is 'h'
+#     if letter == "h":
+#         continue
+#     print("current letter :", letter)
