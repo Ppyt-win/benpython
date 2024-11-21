@@ -25,18 +25,18 @@
 
 
 
-Amount = float(input('Enter Amount:'))
-original_price =700
-Amount_to_pay =800
-discount =Amount*20/100
+# Amount = float(input('Enter Amount:'))
+# original_price =700
+# Amount_to_pay =800
+# discount =Amount*20/100
 
-Tax = discount*8/100
-if Amount < 100:
-    print('Hello,customer! You have no discount')
-elif Amount ==100 or Amount <=500:
-    print(f'Hello, customer! You have a 10% discount of $ {discount} and a 5% VAT of ${Tax}. You are to pay ${Amount-discount+Tax} Thanks.')
-elif Amount >500:
-    print(f'Hello, customer! You have a 20% discount of ${discount} and an 8% VAT of ${Tax}. You are to pay ${Amount-discount+Tax}Thanks')
+# Tax = discount*8/100
+# if Amount < 100:
+#     print('Hello,customer! You have no discount')
+# elif Amount ==100 or Amount <=500:
+#     print(f'Hello, customer! You have a 10% discount of $ {discount} and a 5% VAT of ${Tax}. You are to pay ${Amount-discount+Tax} Thanks.')
+# elif Amount >500:
+#     print(f'Hello, customer! You have a 20% discount of ${discount} and an 8% VAT of ${Tax}. You are to pay ${Amount-discount+Tax}Thanks')
 
 
 # greetings = 'welcome to learnFactory'
@@ -56,7 +56,24 @@ elif Amount >500:
 #     if exam_score ==60 or exam_score <=69:
 #          print(f'{Students_name} your exam score is {exam_score}. you got D!')
 #     if exam_score <60:
-#          print(f'{Students_name} your exam score is {exam_score}. you got F!')
+        #  print(f'{Students_name} your exam score is {exam_score}. you got F!')
+
+
+
+units =float(input('enter units:'))
+# print(units)
+charge =50
+bill =units+charge
+# print(bill)
+if units<=0 or units <=100:
+    print(f'your bill is ${units*0.50+charge} for the month of november. Meter charge of $50(included)')
+else:
+    if units <=101 or units <=300:
+        print(f'your bill is ${units*0.75+charge} for the month of november.Meter charge of $50(included) ')
+    if units >300:
+        print(f'your bill is ${units*1.20+charge} for the month of november. Meter charge of $50(included)')
+    
 
     
+
 
